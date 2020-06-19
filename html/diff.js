@@ -9,12 +9,11 @@
 "use strict"
 
 const _ = require("iotdb-helpers")
+const web = require("..")
 
 /**
  */
 const diff = _.promise((self, done) => {
-    const app = require("../..")
-
     const _extract = code => {
         const results = []
 
@@ -34,13 +33,13 @@ const diff = _.promise((self, done) => {
             }
         })
 
-        return app.lib.html.join.join(results)
+        return web.html.join.join(results)
     }
 
     _.promise(self)
         .validate(diff)
 
-        .then(app.lib.html.hash)
+        .then(web.html.hash)
         .make(sd => {
             sd.diff = {}
 
