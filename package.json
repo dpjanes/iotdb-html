@@ -4,7 +4,7 @@
         "url": "https://github.com/dpjanes/iotdb-website/issues"
     }, 
     "dependencies": {
-        "iotdb-helpers": "~3.4.17"
+        "iotdb-helpers": "~3.5.2"
     }, 
     "description": "POP Interface for HTML", 
     "homepage": "https://github.com/dpjanes/node-iotdb", 
@@ -20,5 +20,5 @@
         "cover": "nyc --reporter=html mocha --recursive", 
         "test": "mocha --recursive --bail"
     }, 
-    "version": "1.0.2"
+    "version": "1.0.3"
 }
