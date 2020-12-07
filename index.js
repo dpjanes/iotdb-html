@@ -22,6 +22,5 @@
 
 "use strict"
 
-module.exports = require("./lib")
+module.exports = require("./web")
 module.exports.html = require("./html")
-module.exports.web = require("./web")

@@ -10,7 +10,7 @@
 
 module.exports = Object.assign(
     {},
-    require("./generate_page"),
+    require("./page"),
     require("./state"),
     {}
 );
